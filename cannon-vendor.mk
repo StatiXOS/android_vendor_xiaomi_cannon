@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
     vendor/xiaomi/cannon/proprietary/lib64/libmtkisp_metadata_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkisp_metadata_sys.so \
     vendor/xiaomi/cannon/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
+    vendor/xiaomi/cannon/proprietary/vendor/lib64/libunwindstack-v29.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwindstack-v29.so \
     vendor/xiaomi/cannon/proprietary/lib64/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libyuv.so \
     vendor/xiaomi/cannon/proprietary/lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/cannon/proprietary/lib64/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.audio@5.1.so \
