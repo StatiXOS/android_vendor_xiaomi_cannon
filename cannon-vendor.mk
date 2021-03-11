@@ -981,7 +981,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/gatekeeper.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
@@ -1013,7 +1012,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vibrator.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vulkan.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/jcos_client.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259aacmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259aacmipiraw_E2EHDR_Preview.so \
@@ -1592,7 +1590,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/gatekeeper.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
@@ -1628,7 +1625,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vibrator.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vulkan.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/jcos_client.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
