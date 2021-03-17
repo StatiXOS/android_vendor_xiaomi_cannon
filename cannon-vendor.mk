@@ -939,14 +939,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.power@1.3-impl-mediatek.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.2-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.primary.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.r_submix.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.usb.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/consumerir.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/displayfeature.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/displayfeature.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
@@ -960,7 +955,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/lights.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/memtrack.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/power.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/sensors.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.touch.so \
@@ -1541,14 +1535,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.power@1.3-impl-mediatek.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.2-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.primary.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.r_submix.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.usb.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/consumerir.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/displayfeature.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
@@ -1563,7 +1552,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/lights.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/memtrack.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6853.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/power.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/sensors.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.touch.so \
