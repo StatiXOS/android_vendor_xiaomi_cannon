@@ -5,16 +5,16 @@
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
-        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="30"></data>
-        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="2000"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="45"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="2"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_PACK_SWITCH">
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
-        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="30"></data>
-        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="2000"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="45"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="2"></data>
     </scenario>
     <scenario powerhint="LAUNCH">
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="3000000"></data>
@@ -24,6 +24,7 @@
         <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_EXT_LAUNCH">
+        <data cmd="PERF_RES_SCHED_WALT" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="1"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="40"></data>
@@ -40,9 +41,9 @@
         <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
         <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
-        <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="6000"></data>
-        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="30"></data>
-        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="35000"></data>
+        <data cmd="PERF_RES_POWER_HINT_HOLD_TIME" param1="6"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT" param1="45"></data>
+        <data cmd="PERF_RES_POWER_HINT_EXT_HINT_HOLD_TIME" param1="35"></data>
         <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_APP_ROTATE">
@@ -60,9 +61,6 @@
         <data cmd="PERF_RES_SCHED_BOOST" param1="1"></data>
         <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
     </scenario>
-    <scenario powerhint="MTKPOWER_HINT_APP_TOUCH">
-        <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_NOTIFY_FBC" param1="1"></data>
-    </scenario>
     <scenario powerhint="MTKPOWER_HINT_GALLERY_BOOST">
         <data cmd="PERF_RES_CPUFREQ_PERF_MODE" param1="1"></data>
     </scenario>
@@ -70,17 +68,11 @@
         <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
         <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="2"></data>
     </scenario>
-    <scenario powerhint="MTKPOWER_HINT_AUDIO_POWER_DL">
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="800000"></data>
-        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
-    </scenario>
-    <scenario powerhint="MTKPOWER_HINT_AUDIO_LATENCY_UL">
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1500000"></data>
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1000000"></data>
-        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
-    </scenario>
-    <scenario powerhint="MTKPOWER_HINT_AUDIO_DISABLE_WIFI_POWER_SAVE">
+    <scenario powerhint="MTKPOWER_HINT_WIPHY_SPEED_DL">
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="3000000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="3000000"></data>
+        <data cmd="PERF_RES_DRAM_OPP_MIN" param1="0"></data>
+        <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="99"></data>
         <data cmd="PERF_RES_NET_WIFI_CAM" param1="1"></data>
-        <data cmd="PERF_RES_POWERHAL_SCREEN_OFF_STATE" param1="1"></data>
     </scenario>
 </SCNTABLE>
