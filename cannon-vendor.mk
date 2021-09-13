@@ -922,6 +922,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.beanpod.so \
+    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.beanpod.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/lights.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6853.so \
@@ -1367,6 +1368,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
+    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/hwcomposer.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.beanpod.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
