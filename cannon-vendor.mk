@@ -2071,6 +2071,17 @@ PRODUCT_PACKAGES += \
     SoterService \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
+    mediatek-common \
+    mediatek-framework-net \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-ims-legacy \
+    mediatek-services \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
     com.nxp.sems \
     com.android.hotwordenrollment.common.util \
     android.hardware.biometrics.fingerprint@2.1-service \
