@@ -2086,7 +2086,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     com.nxp.sems \
     com.android.hotwordenrollment.common.util \
-    android.hardware.biometrics.fingerprint@2.1-service \
     vendor.mediatek.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
     android.hardware.wifi.hostapd \
