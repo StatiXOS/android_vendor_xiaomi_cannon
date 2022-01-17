@@ -412,9 +412,10 @@
     <EccEntry Ecc="193" Category="0" Condition="1" Plmn = "456 FFF" />
 
     <!-- Add for Laos operator -->
-    <EccEntry Ecc="191" Category="0" Condition="1" Plmn = "457 FFF" />
-    <EccEntry Ecc="192" Category="0" Condition="1" Plmn = "457 FFF" />
-    <EccEntry Ecc="193" Category="0" Condition="1" Plmn = "457 FFF" />
+    <EccEntry Ecc="1191" Category="0" Condition="2" Plmn = "457 FFF" />
+    <EccEntry Ecc="1195" Category="0" Condition="2" Plmn = "457 FFF" />
+    <EccEntry Ecc="1190" Category="0" Condition="2" Plmn = "457 FFF" />
+    <EccEntry Ecc="1199" Category="0" Condition="2" Plmn = "457 FFF" />
 
     <!-- Add for Bangladesh operator -->
     <EccEntry Ecc="100" Category="0" Condition="1" Plmn = "470 FFF" />
