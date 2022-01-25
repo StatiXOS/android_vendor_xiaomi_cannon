@@ -149,8 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
-    vendor/xiaomi/cannon/proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service \
-    vendor/xiaomi/cannon/proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service-mediatek \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
@@ -170,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/vendor.mediatek.hardware.vpu@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.vpu@1.0-service \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/vendor.microtrust.hardware.se@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.se@1.0-service \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.soter@1.0-service \
-    vendor/xiaomi/cannon/proprietary/vendor/bin/hw/vendor.mtk.hardware.vibrator@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mtk.hardware.vibrator@1.2-service \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@1.2-service \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/vendor.qti.sla.service@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.sla.service@1.0-service \
     vendor/xiaomi/cannon/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service \
@@ -391,8 +388,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
-    vendor/xiaomi/cannon/proprietary/vendor/etc/init/android.hardware.vibrator@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service-mediatek.rc \
-    vendor/xiaomi/cannon/proprietary/vendor/etc/init/android.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
@@ -449,7 +444,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/vendor.mediatek.hardware.vpu@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.vpu@1.0-service.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/vendor.microtrust.hardware.se@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.se@1.0-service.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
-    vendor/xiaomi/cannon/proprietary/vendor/etc/init/vendor.mtk.hardware.vibrator@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mtk.hardware.vibrator@1.2-service.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@1.2-service.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/vendor.qti.sla.service@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.sla.service@1.0-service.rc \
     vendor/xiaomi/cannon/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
@@ -936,7 +930,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.primary.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.r_submix.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/audio.usb.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.mt6853.so \
@@ -967,7 +960,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vibrator.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/jcos_client.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Preview.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Video.so \
@@ -1373,7 +1365,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.primary.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.r_submix.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/audio.usb.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6853.so \
@@ -1409,7 +1400,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib64/hw/vibrator.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/jcos_client.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
