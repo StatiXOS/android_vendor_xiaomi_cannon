@@ -214,7 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
     vendor/xiaomi/cannon/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/xiaomi/cannon/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
-    vendor/xiaomi/cannon/proprietary/vendor/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE_GPL.html.gz \
     vendor/xiaomi/cannon/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2041:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2041 \
     vendor/xiaomi/cannon/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2041_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2041_ENUM \
     vendor/xiaomi/cannon/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
@@ -614,7 +613,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/xiaomi/cannon/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/cannon/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
-    vendor/xiaomi/cannon/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/xiaomi/cannon/proprietary/vendor/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     vendor/xiaomi/cannon/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     vendor/xiaomi/cannon/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
@@ -817,7 +815,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/cannon/proprietary/vendor/etc/thermal-youtube.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-youtube.conf \
     vendor/xiaomi/cannon/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/cannon/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/xiaomi/cannon/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/xiaomi/cannon/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/xiaomi/cannon/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
