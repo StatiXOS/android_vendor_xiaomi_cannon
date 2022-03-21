@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/system_ext/lib/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.atci@1.0.so \
     vendor/xiaomi/cannon/proprietary/system_ext/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/xiaomi/cannon/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/xiaomi/cannon/proprietary/system_ext/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
     vendor/xiaomi/cannon/proprietary/system_ext/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/xiaomi/cannon/proprietary/system_ext/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/xiaomi/cannon/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
@@ -921,7 +920,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hi259ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi259ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
@@ -945,8 +943,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/sound_trigger.primary.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/thermal.mt6853.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6853.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
@@ -958,156 +954,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/jcos_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/jcos_client.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_E2EHDR_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Flash_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_HDR_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_HDR_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_HDR_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_N3D_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_N3D_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_N3D_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_P1_YUV.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Scene_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Scene_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Scene_Preview_4k.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Video_1080.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Video_4k.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_hi259ofilmmipiraw_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi259ofilmmipiraw_Zoom_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_E2EHDR_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_E2EHDR_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Flash_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_HDR_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_HDR_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_HDR_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_N3D_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_N3D_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_N3D_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_P1_YUV.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Scene_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Scene_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Scene_Preview_4k.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Video_1080.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov02b10ofilmmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b10ofilmmipiraw_Video_4k.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_E2EHDR_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_E2EHDR_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_1080P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_1080P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_1080P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_1080P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_720P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_720P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_720P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_EIS_Video_720P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Face_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Face_Preview_4k.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Flash_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_HDR_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_HDR_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_HDR_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_LLHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_LLHDR_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_N3D_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_N3D_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_N3D_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_P1_YUV.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Scene_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview_4k.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_1080.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_1080P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_1080P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_1080P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_1080P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_4k.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_720P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_720P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_ov8856ofilmmipiraw_Video_720P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmmipiraw_Video_720P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Douyin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Douyin.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_3rd_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Eis_Video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Eis_Video_1080P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Eis_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Eis_Video_720P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_FaceUnlock_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_FaceUnlock_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_FrontLight_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_FrontLight_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_FrontLight_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_FrontLight_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_HDR_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Its_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Its_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Panorama_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Panorama_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Portrait_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Portrait_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Portrait_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Portrait_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_QQWechat_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_QQWechat_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_QQWechat_VideoCall.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_QQWechat_VideoCall.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Scene_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Scene_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Video_1080P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Video_720P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5k3l6ofilmmipiraw_Video_720P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3l6ofilmmipiraw_Video_720P_120fps.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_3rd_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_3rd_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_3rd_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_3rd_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_3rd_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_48_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_48_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_48_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_48_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_E2EHDR_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_E2EHDR_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_60fps_Zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_1080P_Zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_4K_Zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_EIS_Video_720P_Zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Face_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Face_Capture_4cell.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Flash_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Flash_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_HDR_Scene_Capture_Zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Its_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Its_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_LLHDR_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_LLHDR_Face_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_LLHDR_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_LLHDR_Scene_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_N3D_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_N3D_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_P1_YUV.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Profseeion_capture_zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Profseeion_capture_zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Profseeion_capture_zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Profseeion_capture_zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Profseeion_capture_zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Profseeion_capture_zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_QQWechat_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_QQWechat_Video.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_QQWechat_VideoCall.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_QQWechat_VideoCall.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Scene_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Scene_Capture_4cell.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Scene_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Spot_AE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Spot_AE.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_SuperNight_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_SuperNight_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_120fps.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_1080P_Zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_120fps.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_240fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_240fps.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_Zoom1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_Zoom2.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Video_720P_Zoom3.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Capture.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Capture1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Capture1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Preview.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Preview1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kgm1stofilmmipiraw_Zoom_Preview1.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
@@ -1157,7 +1003,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
@@ -1213,11 +1058,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
@@ -1287,19 +1127,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cannon/proprietary/vendor/lib/ls_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/ls_client.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/ov02b10ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/ov8856ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov8856ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/s5k3l6ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3l6ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/s5kgm1stofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgm1stofilm_mipi_raw_tuning.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/se_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/se_extn_client.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/secure_element-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/secure_element-impl.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
-    vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/cannon/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
