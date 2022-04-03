@@ -1910,19 +1910,19 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     com.nxp.sems \
     com.android.hotwordenrollment.common.util \
-    vendor.mediatek.hardware.gpu@1.0-service \
-    android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi@1.0-service \
-    fp_cap_manifest \
-    lights-mtk-default \
-    android.hardware.wifi.supplicant \
+    manifest_vendor.mediatek.hardware.gpu@1.0-service \
+    manifest_android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
+    manifest_android.hardware.wifi.hostapd \
+    manifest_android.hardware.wifi@1.0-service \
+    manifest_fp_cap_manifest \
+    manifest_lights-mtk-default \
+    manifest_android.hardware.wifi.supplicant \
     manifest_android.hardware.drm@1.3-service.widevine \
     manifest_vendor.xiaomi.hardware.mfidoca \
     manifest_vendor.xiaomi.hardware.mlipay \
     manifest_vendor.xiaomi.hardware.mtdservice \
     manifest_vendor.xiaomi.hardware.tidaservice \
     manifest_vendor.xiaomi.hardware.vsimapp \
-    power-default \
-    vendor.mediatek.hardware.dplanner@2.0-service \
-    vendor.xiaomi.hardware.micharge@1.0
+    manifest_power-default \
+    manifest_vendor.mediatek.hardware.dplanner@2.0-service \
+    manifest_vendor.xiaomi.hardware.micharge@1.0
